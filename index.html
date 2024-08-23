@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="toggle">
+        <button class="btns light"><i class="fa-solid fa-sun"></i></button>
+        <button class="btns dark"><i class="fa-solid fa-moon"></i></button>
+      </div>
+
+      <div class="calculator">
+        <div class="screen">
+          <input type="text" placeholder="0" readonly />
+        </div>
+        <div class="buttons">
+          <div>
+            <button class="btns special">AC</button>
+            <button class="btns special">DEL</button>
+            <button class="btns special">%</button>
+            <button class="btns special">/</button>
+          </div>
+          <div>
+            <button class="btns">7</button>
+            <button class="btns">8</button>
+            <button class="btns">9</button>
+            <button class="btns special">*</button>
+          </div>
+          <div>
+            <button class="btns">4</button>
+            <button class="btns">5</button>
+            <button class="btns">6</button>
+            <button class="btns special">-</button>
+          </div>
+          <div>
+            <button class="btns">1</button>
+            <button class="btns">2</button>
+            <button class="btns">3</button>
+            <button class="btns special">+</button>
+          </div>
+          <div>
+            <button class="btns">00</button>
+            <button class="btns">0</button>
+            <button class="btns">.</button>
+            <button class="btns special">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
